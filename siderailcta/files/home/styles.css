@@ -1,11 +1,11 @@
 ﻿body {
   margin:0px;
   background-image:none;
-  position:static;
-  left:auto;
-  width:1372px;
-  margin-left:0;
-  margin-right:0;
+  position:relative;
+  left:-0px;
+  width:1319px;
+  margin-left:auto;
+  margin-right:auto;
   text-align:left;
 }
 #base {
@@ -23,8 +23,8 @@
 #u0 {
   border-width:0px;
   position:absolute;
-  left:172px;
-  top:164px;
+  left:0px;
+  top:62px;
   width:1200px;
   height:690px;
 }
@@ -40,8 +40,8 @@
 #u1 {
   border-width:0px;
   position:absolute;
-  left:318px;
-  top:202px;
+  left:146px;
+  top:100px;
   width:908px;
   height:572px;
   overflow:hidden;
@@ -67,20 +67,13 @@
   width:1px;
   height:1px;
 }
-#u2_div {
+#u2_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:908px;
-  height:1844px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  height:3098px;
 }
 #u2 {
   border-width:0px;
@@ -88,7 +81,7 @@
   left:0px;
   top:1px;
   width:908px;
-  height:1844px;
+  height:3098px;
 }
 #u2_text {
   border-width:0px;
@@ -99,21 +92,31 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u3_img {
+#u3_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:908px;
-  height:3098px;
+  width:58px;
+  height:94px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
 }
 #u3 {
   border-width:0px;
   position:absolute;
-  left:0px;
-  top:1px;
-  width:908px;
-  height:3098px;
+  left:46px;
+  top:1179px;
+  width:58px;
+  height:94px;
 }
 #u3_text {
   border-width:0px;
@@ -167,8 +170,8 @@
 #u5 {
   border-width:0px;
   position:absolute;
-  left:411px;
-  top:697px;
+  left:239px;
+  top:595px;
   width:169px;
   height:66px;
 }
@@ -192,8 +195,8 @@
 #u6 {
   border-width:0px;
   position:absolute;
-  left:383px;
-  top:705px;
+  left:211px;
+  top:603px;
   width:49px;
   height:49px;
 }
