@@ -1,0 +1,190 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+
+
+#logo {
+  display: block;
+	width: 80%;
+
+}
+
+body {
+	background-color: #180d26;
+}
+
+svg {
+	fill: #ffffff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+div.top {
+  display: block;
+  width: 100%;
+  padding-top: 12%;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: 'Inter UI', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Inter UI', sans-serif;
+	font-weight: bold;
+}
+
+hlink {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+hlink:hover {
+  color: #00ffff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+
+h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Inter UI', sans-serif;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #00ffff;
+  font-size: 12px;
+  font-family: 'Inter UI', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+}
+
+#resumedetails {
+    margin-left: 0;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Inter UI', sans-serif;
+}
+
+#text-row {
+  padding-top: 5%;
+}
+
+#text-row-top {
+  padding-top: 3%;
+}
+
+#text-row-sub {
+  padding-top: 7%;
+}
+
+.read-more {
+  color: #00ffff
+}
+.read-more:hover {
+  color: #ffffff;
+  -webkit-transition: ease 0.2s;
+   transition: ease 0.2s;
+}
+
+#contact-button {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 45px;
+  background: #00ffff;
+  width: 170px;
+  color: #180d26;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+	font-weight: bold;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#contact-button:hover {
+	background: #ffffff;
+	color: #180d26;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#learn-button {
+  margin-top: 45px;
+  margin-bottom: 10%;
+  height: 45px;
+  background: #fff;
+	box-shadow: inset 0 0 0 3px #0020ff;
+  width: 170px;
+  color: #0020ff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-family: DINPro-Bold;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#learn-button:hover {
+	background: #1c1c1c;
+	box-shadow: inset 0 0 0 3px #1c1c1c;
+	-webkit-transition:  0.2s;
+	 transition: ease 0.2s;
+	 color: #fff;
+}
+
+#footer-text {
+  margin-bottom: : 10%;
+  text-align: left;;
+}
+
+@media print, screen and (max-width: 600px) {
+  #footer-text {
+    text-align: left;}
+  h1 {
+    font-size: 32px;
+    }
+    #text-row {
+      padding-top: 5%;
+    }
+    #text-row-top {
+      padding-top: 8%;
+    }
+    #text-row-sub {
+      padding-top: 8%;
+    }
+  }
+
+
+	div.middle {
+	  height: 10px;
+	  width: 100%;
+		background-color: #0020ff;
+	  xbackground-image: linear-gradient( 45deg, #000FFF 0%, #5000ff 30%, #000 82%, #000 100%);
+	}
+
+
+.hide,.hide-inline{display:none}.lt-ie9 .hide{display:block}.lt-ie9 .hide-inline{display:inline}
