@@ -9,11 +9,11 @@
 }
 
 body {
-	background-color: #180d26;
+	background-color: #fff;
 }
 
 svg {
-	fill: #ffffff;
+	fill: #000000;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
@@ -25,21 +25,21 @@ div.top {
 }
 
 h1 {
-  color: #ffffff;
+  color: #000000;
   font-size: 34px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
 
 h2 {
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
 
 hlink {
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
@@ -47,27 +47,26 @@ hlink {
 }
 
 hlink:hover {
-  color: #00ffff;
+  color: #0000ff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
 
 
 h3 {
-  color: #ffffff;
+  color: #000000;
   font-size: 18px;
   font-family: 'Inter UI', sans-serif;
 }
 
 h4 {
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
-  text-transform: uppercase;
 }
 
 h5 {
-  color: #00ffff;
+  color: #0000ff;
   font-size: 12px;
   font-family: 'Inter UI', sans-serif;
   text-transform: uppercase;
@@ -75,7 +74,7 @@ h5 {
 }
 
 p {
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
 }
@@ -83,7 +82,7 @@ p {
 #resumedetails {
     margin-left: 0;
     list-style-type: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     font-family: 'Inter UI', sans-serif;
 }
@@ -97,25 +96,41 @@ p {
 }
 
 #text-row-sub {
-  padding-top: 7%;
+  padding-top: 10%;
 }
 
+#text-row-blank {
+  padding-top: 10%;
+}
+
+
 .read-more {
-  color: #00ffff
+  color: #0000ff
 }
 .read-more:hover {
-  color: #ffffff;
+  color: #000000;
   -webkit-transition: ease 0.2s;
    transition: ease 0.2s;
 }
 
+.spacer {
+  margin-top: 2%;
+}
+
+.bottom-spacer {
+  margin-bottom: 5%;
+}
+
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 #contact-button {
-  margin-top: 10%;
-  margin-bottom: 10%;
   height: 45px;
-  background: #00ffff;
+  background: #0000ff;
   width: 170px;
-  color: #180d26;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
@@ -126,8 +141,8 @@ p {
 }
 
 #contact-button:hover {
-	background: #ffffff;
-	color: #180d26;
+	background: #000000;
+	color: #fff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
@@ -179,6 +194,10 @@ p {
     #contact-button {
       margin-top: 10%;
       margin-bottom: 15%;}
+
+      #text-row-blank {
+        display: none;
+      }
   }
 
 
