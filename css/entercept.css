@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: #171430;
+	background-color: #fff;
 }
 
 svg {
@@ -118,6 +118,10 @@ p {
 
 #text-row-blank {
   padding-top: 10%;
+}
+
+.blue {
+background-color: #171430;
 }
 
 
