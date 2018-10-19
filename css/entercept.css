@@ -1,5 +1,5 @@
 @import url('https://rsms.me/inter/inter-ui.css');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 
 #logo {
@@ -26,7 +26,7 @@ div.top {
 
 h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
@@ -60,28 +60,35 @@ hlink:hover {
 h3 {
   color: #fff;
   font-size: 18px;
-  font-family: 'Inter UI', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   line-height: 32px;
 }
 
 h4 {
   color: #fff;
   font-size: 14px;
-  font-family: 'Inter UI', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h5 {
   color: #5CDDAD;
-  font-size: 12px;
-  font-family: 'Inter UI', sans-serif;
+  font-size: 13px;
+  font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
+}
+
+h6 {
+  color: #9599B5;
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
 }
 
 p {
   color: #fff;
   font-size: 14px;
-  font-family: 'Inter UI', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #resumedetails {
@@ -181,7 +188,7 @@ p {
   text-align: left;;
 }
 
-@media print, screen and (max-width: 768px) {
+@media print, screen and (max-width: 1000px) {
   #footer-text {
     text-align: left;}
   h1 {
