@@ -9,11 +9,11 @@
 }
 
 body {
-	background-color: #fff;
+	background-color: #171430;
 }
 
 svg {
-	fill: #000000;
+	fill: #fff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
@@ -25,21 +25,25 @@ div.top {
 }
 
 h1 {
-  color: #000000;
+  color: #fff;
   font-size: 34px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
 
+h1 strong {
+  color: #5CDDAD
+}
+
 h2 {
-  color: #000000;
+  color: #fff;
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
 
 hlink {
-  color: #000000;
+  color: #fff;
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
@@ -47,26 +51,26 @@ hlink {
 }
 
 hlink:hover {
-  color: #0000ff;
+  color: #9599B5;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
 
 
 h3 {
-  color: #000000;
+  color: #fff;
   font-size: 18px;
   font-family: 'Inter UI', sans-serif;
 }
 
 h4 {
-  color: #000000;
+  color: #fff;
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
 }
 
 h5 {
-  color: #0000ff;
+  color: #5CDDAD;
   font-size: 12px;
   font-family: 'Inter UI', sans-serif;
   text-transform: uppercase;
@@ -74,7 +78,7 @@ h5 {
 }
 
 p {
-  color: #000000;
+  color: #fff;
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
 }
@@ -82,7 +86,7 @@ p {
 #resumedetails {
     margin-left: 0;
     list-style-type: none;
-    color: #000000;
+    color: #fff;
     font-size: 14px;
     font-family: 'Inter UI', sans-serif;
 }
@@ -105,10 +109,10 @@ p {
 
 
 .read-more {
-  color: #0000ff
+  color: #5CDDAD
 }
 .read-more:hover {
-  color: #000000;
+  color: #fff;
   -webkit-transition: ease 0.2s;
    transition: ease 0.2s;
 }
@@ -128,7 +132,7 @@ p {
 
 #contact-button {
   height: 45px;
-  background: #0000ff;
+  background: #5CDDAD;
   width: 170px;
   color: #fff;
   text-transform: uppercase;
@@ -141,7 +145,7 @@ p {
 }
 
 #contact-button:hover {
-	background: #000000;
+	background: #fff;
 	color: #fff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
@@ -176,7 +180,7 @@ p {
   text-align: left;;
 }
 
-@media print, screen and (max-width: 600px) {
+@media print, screen and (max-width: 768px) {
   #footer-text {
     text-align: left;}
   h1 {
