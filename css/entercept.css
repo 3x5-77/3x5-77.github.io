@@ -13,10 +13,15 @@ body {
 }
 
 svg {
-	fill: #fff;
+	fill: #152935;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
+
+svg:hover {
+  fill: #0062ff;
+}
+
 
 div.top {
   display: block;
@@ -29,30 +34,30 @@ div.arrow {
 }
 
 div.blue {
-  background-color: #171430;
-  padding-bottom: 12%;
+  background-color: #f4f7fb;
+  padding-bottom: 10%;
 }
 
 h1 {
-  color: #fff;
-  font-size: 50px;
+  color: #000;
+  font-size: 48px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
 
 h1 strong {
-  color: #5CDDAD
+  color: #0062ff;
 }
 
 h2 {
-  color: #171430;
+  color: #000;
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
 	font-weight: bold;
 }
 
 hlink {
-  color: #171430;
+  color: #000;
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
@@ -60,28 +65,28 @@ hlink {
 }
 
 hlink:hover {
-  color: #9599B5;
+  color: #0062ff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
 
 
 h3 {
-  color: #fff;
+  color: #5a6872;
   font-size: 18px;
   font-family: 'Roboto Mono', monospace;
   line-height: 32px;
 }
 
 h4 {
-  color: #9599B5;
+  color: #8897a2;
   font-size: 14px;
   font-family: 'Roboto Mono', monospace;
   font-style: italic;
 }
 
 h5 {
-  color: #5CDDAD;
+  color: #0062ff;
   font-size: 13px;
   font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
@@ -89,14 +94,14 @@ h5 {
 }
 
 h6 {
-  color: #9599B5;
+  color: #8897a2;
   font-size: 12px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 900;
 }
 
 p {
-  color: #171430;
+  color: #5a6872;
   font-size: 15px;
   font-family: 'Inter UI', sans-serif;
 }
@@ -104,7 +109,7 @@ p {
 #resumedetails {
     margin-left: 0;
     list-style-type: none;
-    color: #fff;
+    color: #152935;
     font-size: 14px;
     font-family: 'Inter UI', sans-serif;
 }
@@ -131,10 +136,10 @@ p {
 
 
 .read-more {
-  color: #5CDDAD
+  color: #649fff
 }
 .read-more:hover {
-  color: #fff;
+  color: #152935;
   -webkit-transition: ease 0.2s;
    transition: ease 0.2s;
 }
@@ -154,9 +159,9 @@ p {
 
 #contact-button {
   height: 45px;
-  background: #5CDDAD;
+  background: #649fff;
   width: 170px;
-  color: #fff;
+  color: #152935;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
@@ -167,8 +172,8 @@ p {
 }
 
 #contact-button:hover {
-	background: #fff;
-	color: #fff;
+	background: #152935;
+	color: #152935;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
 }
@@ -177,7 +182,7 @@ p {
   margin-top: 45px;
   margin-bottom: 10%;
   height: 45px;
-  background: #fff;
+  background: #152935;
 	box-shadow: inset 0 0 0 3px #0020ff;
   width: 170px;
   color: #0020ff;
@@ -194,7 +199,7 @@ p {
 	box-shadow: inset 0 0 0 3px #1c1c1c;
 	-webkit-transition:  0.2s;
 	 transition: ease 0.2s;
-	 color: #fff;
+	 color: #152935;
 }
 
 #footer-text {
@@ -231,7 +236,7 @@ p {
 	  height: 10px;
 	  width: 100%;
 		background-color: #9599B5;
-	  xbackground-image: linear-gradient( 45deg, #000FFF 0%, #5000ff 30%, #000 82%, #000 100%);
+	  xbackground-image: linear-gradient( 45deg, #649fff 0%, #5000ff 30%, #000 82%, #000 100%);
 	}
 
 
