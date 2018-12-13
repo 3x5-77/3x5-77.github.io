@@ -122,12 +122,13 @@ p {
   Fill: #8897a2;
 }
 
+
 #text-row {
   padding-top: 45px;
 }
 
 #text-row-exp {
-  padding-top: 45px;
+  padding-top: 50px;
 }
 
 
@@ -247,6 +248,9 @@ p {
       margin-bottom: 15%;}
 
       #text-row-blank {
+        display: none;
+      }
+      #exp-col{
         display: none;
       }
   }
