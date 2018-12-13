@@ -115,7 +115,7 @@ p {
 }
 
 #text-row {
-  padding-top: 5%;
+  padding-top: 45px;
 }
 
 #text-row-exp {
@@ -227,6 +227,9 @@ p {
     }
     #text-row-top {
       padding-top: 3%;
+    }
+    #text-row-exp {
+      padding-top: 20px;
     }
     #text-row-sub {
       padding-top: 30px;
