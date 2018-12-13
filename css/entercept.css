@@ -70,6 +70,10 @@ hlink:hover {
 	 transition: ease 0.2s;
 }
 
+#exp-row {
+  margin-top: 0px;
+}
+
 
 h3 {
   color: #5a6872;
@@ -112,6 +116,10 @@ p {
     color: #152935;
     font-size: 14px;
     font-family: 'Inter UI', sans-serif;
+}
+
+#partnerlogo {
+  Fill: #8897a2;
 }
 
 #text-row {
