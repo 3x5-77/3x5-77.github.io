@@ -8,6 +8,17 @@
 
 }
 
+
+#hidden {
+  display: none;
+}
+
+#hidden-button {
+  display: block;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
 body {
 	background-color: #fff;
 }
@@ -65,6 +76,20 @@ hlink {
 }
 
 hlink:hover {
+  color: #0062ff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+hlink2 {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+hlink2:hover {
   color: #0062ff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
@@ -263,6 +288,3 @@ p {
 		background-color: #9599B5;
 	  xbackground-image: linear-gradient( 45deg, #649fff 0%, #5000ff 30%, #000 82%, #000 100%);
 	}
-
-
-.hide,.hide-inline{display:none}.lt-ie9 .hide{display:block}.lt-ie9 .hide-inline{display:inline}

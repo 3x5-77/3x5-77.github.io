@@ -64,7 +64,8 @@
 
 
         <div id="text-row-top">
-                 <h3>From startups and nonprofits, to Fortune 500 companies, I have generated business results through solutions focused on technology and user-centered design. <span class="hide-inline"></span>&nbsp;<a class="read-more" href="#"></a></p>
+                 <h3>From startups and nonprofits, to Fortune 500 companies, I have generated business results through solutions focused on technology and user-centered design. Companies I have worked with include Johnson & Johnson, Humana, Discover, Charles Schwab, Cox, Allergan, and Target. I've been involved in launching startups such as a sports injury reporting platform and a fitness based screen time management solution for kids.<span class="hide-inline"></span>&nbsp;<a class="read-more" href="#"></a></p>
+                   <div class="hide"><h3>Content</h3>
         </div>
 
       </div>
@@ -119,16 +120,8 @@
              <h4>Aug 2017 - Nov 2017</h4>
     </div>
   </div>
-
-  <div class="row">
-      <div class="large-1 columns" id="exp-col">&nbsp;</div>
-      <div class="large-11 small-12 columns">
-        <button onclick="myFunction()" id="hidden-button"><hlink2>View All</hlink2></button>
-      </div>
+  <div class="large-2 columns" id="exp-col">&nbsp;</div>
 </div>
-</div>
-</div>
-<div id="hidden">
 <div class="row" id="exp-row">
     <div class="large-1 columns" id="exp-col">&nbsp;</div>
     <div class="large-3 small-12 columns">
@@ -179,49 +172,12 @@
   </div>
   <div class="large-5 columns" id="exp-col">&nbsp;</div>
 </div>
-</div>
+<button onclick="myFunction()">Click Me</button>
+
+<div id="hidden-experience">
+  This is my DIV element.
 </div>
 
-<div class="spacer"></div>
-
-<div class="row">
-  <div class="large-1 small-0 columns">&nbsp;</div>
-  <div class="large-3 columns">
-  <div id="text-row-sub">
-              <h5>🏢 Clients</h5>
-  </div>
-  <div id="text-row">
-           <h2>Cox Communications</h2>
-  </div>
-
-  <div id="text-row">
-           <h2>Humana</h2>
-  </div>
-</div>
-  <div class="large-3 columns">
-    <div id="text-row-blank">
-                <h5>&nbsp;</h5>
-    </div>
-  <div id="text-row">
-           <h2>Discover Financial</h2>
-  </div>
-  <div id="text-row">
-           <h2>Charles Schwab</h2>
-  </div>
-
-</div>
-<div class="large-3 columns">
-  <div id="text-row-blank">
-              <h5>&nbsp;</h5>
-  </div>
-  <div id="text-row">
-           <h2>Johnson & Johnson</h2>
-  </div>
-  <div id="text-row">
-           <h2>Allergan</h2>
-  </div>
-</div>
-<div class="large-2 columns"></div>
 </div>
 
     <div class="spacer"></div>
@@ -417,24 +373,19 @@
 
 
                        <script>
+                             function getHeight(el){var el_style=window.getComputedStyle(el),el_display=el_style.display,el_max_height=el_style.maxHeight.replace("px","").replace("%",""),wanted_height=0;if(el_display!=="none"&&el_max_height!=="0")return el.offsetHeight;el.style.display="block";wanted_height=el.offsetHeight;el.style.display=el_display;return wanted_height}
+                       function toggleSlide(el){var el_max_height=0;if(el.getAttribute("data-max-height"))if(el.style.maxHeight.replace("px","").replace("%","")==="0")el.style.maxHeight=el.getAttribute("data-max-height");else el.style.maxHeight="0";else{el_max_height=getHeight(el)+"px";el.style["transition"]="max-height 0.5s ease-in-out";el.style.overflowY="hidden";el.style.maxHeight="0";el.setAttribute("data-max-height",el_max_height);el.style.display="block";setTimeout(function(){el.style.maxHeight=el_max_height},10);
+                       setTimeout(function(){document.querySelector(".hide").style["transition"]="all 0s 0s ease";document.querySelector(".hide").style["max-height"]="none"},700)}}if(window.addEventListener)document.querySelector(".read-more").addEventListener("click",function(e){this.style.display="none";document.querySelector(".hide-inline").style.display="inline";toggleSlide(document.querySelector(".hide"));e.preventDefault();return false},false);
+
 
                        function myFunction() {
-                         var y = document.getElementById("hidden-button");
-                         if (y.style.display === "block") {
-                         y.style.display = "none";
-                         } else {
-                         y.style.display = "none";
-                         }
-                        var x = document.getElementById("hidden");
-                        if (x.style.display === "none") {
-                          x.style.display = "block";
-                        } else {
-                          x.style.display = "block";
-                        }
-
+  var x = document.getElementById("hidden-experience");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
-
-
                            </script>
 
     <script src="js/vendor/jquery.js"></script>
