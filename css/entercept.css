@@ -82,10 +82,11 @@ hlink:hover {
 }
 
 hlink2 {
-  color: #000;
+  color: #5a6872;
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
-  font-weight: bold;
+  font-weight: normal;
+  margin-top: -20px;
 }
 
 hlink2:hover {
@@ -167,7 +168,7 @@ p {
 }
 
 #text-row-exp {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #text-row-headline {
