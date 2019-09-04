@@ -15,8 +15,8 @@
 
 #hidden-button {
   display: block;
-  padding-top: 50px;
-  padding-left: 10px;
+  padding-top: 40px;
+  padding-left: 15px;
 }
 
 body {
@@ -86,13 +86,32 @@ hlink2 {
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 hlink2:hover {
   color: #0062ff;
 	-webkit-transition: ease 0.2s;
 	 transition: ease 0.2s;
+}
+
+hlink3 {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+hlink3:hover {
+  color: #0062ff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#project-row-download {
+  margin-top: 50px;
+  margin-bottom: 65px;
 }
 
 #exp-row {
@@ -108,7 +127,7 @@ h3 {
 }
 
 h4 {
-  color: #8897a2;
+  color: #5a6872;
   font-size: 14px;
   font-family: 'Roboto Mono', monospace;
   font-style: italic;
@@ -123,7 +142,7 @@ h5 {
 }
 
 h6 {
-  color: #8897a2;
+  color: #5a6872;
   font-size: 12px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 900;
@@ -144,7 +163,7 @@ p {
 }
 
 #partnerlogo {
-  Fill: #8897a2;
+  Fill: #5a6872;
 }
 
 
@@ -158,7 +177,7 @@ p {
 
 
 #project-row  {
-  padding-top: 3%;
+  margin-top: 50px;
 }
 
 #text-row-top {
@@ -185,7 +204,7 @@ p {
 }
 
 .spacer {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .bottom-spacer {
@@ -252,6 +271,19 @@ p {
 }
 
 @media print, screen and (max-width: 1000px) {
+
+
+  #hidden-button {
+    padding-left: 0px;
+  }
+
+
+.row {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
   #footer-text {
     text-align: left;}
   h1 {
