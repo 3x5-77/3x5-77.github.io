@@ -170,6 +170,9 @@ p {
   padding-bottom: 50px;
 }
 
+#text-row-headline {
+  padding-top: 5%;
+}
 
 #project-row  {
   padding-bottom: 50px;
@@ -293,8 +296,7 @@ p {
       padding-bottom: 5%;
     }
     #text-row-top {
-      patt
-      padding-bottom: 3%;
+      padding-top: 3%;
     }
     #text-row-exp {
       padding-bottom: 20px;
