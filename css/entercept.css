@@ -15,8 +15,8 @@
 
 #hidden-button {
   display: block;
-  padding-top: 40px;
   padding-left: 15px;
+  margin-bottom: 50px;
 }
 
 body {
@@ -100,7 +100,6 @@ hlink3 {
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 100px;
 }
 
 hlink3:hover {
@@ -109,10 +108,6 @@ hlink3:hover {
 	 transition: ease 0.2s;
 }
 
-#project-row-download {
-  margin-top: 50px;
-  margin-bottom: 65px;
-}
 
 #exp-row {
   margin-top: 0px;
@@ -168,16 +163,20 @@ p {
 
 
 #text-row {
-  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 #text-row-exp {
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
 #project-row  {
-  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#project-row-download {
+  padding-bottom: 65px;
 }
 
 #text-row-top {
@@ -186,7 +185,8 @@ p {
 }
 
 #text-row-sub {
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #text-row-blank {
@@ -290,16 +290,17 @@ p {
     font-size: 32px;
     }
     #text-row {
-      padding-top: 5%;
+      padding-bottom: 5%;
     }
     #text-row-top {
-      padding-top: 3%;
+      patt
+      padding-bottom: 3%;
     }
     #text-row-exp {
-      padding-top: 20px;
+      padding-bottom: 20px;
     }
     #text-row-sub {
-      padding-top: 30px;
+      padding-bottom: 30px;
     }
     #contact-button {
       margin-top: 10%;
@@ -311,7 +312,13 @@ p {
       #exp-col{
         display: none;
       }
+
+      #mobile-hide {
+        display: none;
+      }
   }
+
+
 
 
 	div.middle {
