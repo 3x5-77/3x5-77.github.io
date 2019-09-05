@@ -1,0 +1,388 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+
+#headline {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+.top-bar {
+  background: #000;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  color: #3d3d3d;
+}
+
+.top-bar ul {
+    background: #000;
+}
+
+ul {
+  color: #0062ff;
+  font-size: 20px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+
+}
+
+#name {
+      color: #fff;
+}
+
+.text-container {
+      background: #fff;
+      border: 30px;
+      border-style: solid;
+      color: #fff;
+      margin-bottom: 30px;
+      padding-top: 15px;
+      padding-bottom: 20px;
+}
+
+
+
+a {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a:hover {
+  color: #0062ff;
+}
+
+a:focus {
+    color: #0062ff;
+}
+
+.nav-active {
+  color: #0062ff;
+
+}
+
+#hidden {
+  display: none;
+}
+
+#hidden-button {
+  display: block;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+body {
+	background-color: #f3f3f3;
+}
+
+svg {
+	fill: #152935;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+svg:hover {
+  fill: #0062ff;
+}
+
+
+div.top {
+  display: block;
+  width: 100%;
+  padding-top: 7%;s
+}
+
+div.arrow {
+  padding-top: 3%
+}
+
+div.blue {
+  background-color: #f4f7fb;
+  padding-bottom: 10%;
+}
+
+h1 {
+  color: #000;
+  font-size: 32px;
+  font-family: 'Inter UI', sans-serif;
+	font-weight: normal;
+}
+
+h1 strong {
+  color: #0062ff;
+}
+
+h2 {
+  color: #0062ff;
+  font-size: 20px;
+  font-family: 'Inter UI', sans-serif;
+	font-weight: bold;
+}
+
+hlink {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+hlink:hover {
+  color: #0062ff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+hlink2 {
+  color: #5a6872;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: normal;
+  margin-top: -20px;
+}
+
+hlink2:hover {
+  color: #0062ff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+hlink3 {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+hlink3:hover {
+  color: #0062ff;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+
+#exp-row {
+  margin-top: 0px;
+}
+
+
+h3 {
+  color: #5a6872;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 32px;
+}
+
+h4 {
+  color: #5a6872;
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+}
+
+h5 {
+  color: #0062ff;
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h6 {
+  color: #5a6872;
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+}
+
+p {
+  color: #000;
+  font-size: 15px;
+  font-family: 'Inter UI', sans-serif;
+}
+
+#resumedetails {
+    margin-left: 0;
+    list-style-type: none;
+    color: #152935;
+    font-size: 14px;
+    font-family: 'Inter UI', sans-serif;
+}
+
+#partnerlogo {
+  Fill: #5a6872;
+}
+
+
+#text-row {
+  padding-bottom: 45px;
+}
+
+#text-row-exp {
+  margin-bottom: 50px;
+}
+
+#text-row-headline {
+  padding-top: 5%;
+}
+
+#project-row  {
+  padding-bottom: 50px;
+}
+
+#project-row-download {
+}
+
+#text-row-top {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#text-row-sub {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#text-row-blank {
+  padding-top: 50px;
+}
+
+
+.read-more {
+  color: #649fff
+}
+.read-more:hover {
+  color: #152935;
+  -webkit-transition: ease 0.2s;
+   transition: ease 0.2s;
+}
+
+.spacer {
+  margin-top: 5%;
+}
+
+.bottom-spacer {
+  margin-bottom: 5%;
+}
+
+.top-content-spacer {
+  margin-top: 30px;
+}
+
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#contact-button {
+  height: 45px;
+  background: #649fff;
+  width: 170px;
+  color: #152935;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Inter UI', sans-serif;
+	font-weight: bold;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#contact-button:hover {
+	background: #152935;
+	color: #152935;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#learn-button {
+  margin-top: 45px;
+  margin-bottom: 10%;
+  height: 45px;
+  background: #152935;
+	box-shadow: inset 0 0 0 3px #0020ff;
+  width: 170px;
+  color: #0020ff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-family: DINPro-Bold;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
+#learn-button:hover {
+	background: #1c1c1c;
+	box-shadow: inset 0 0 0 3px #1c1c1c;
+	-webkit-transition:  0.2s;
+	 transition: ease 0.2s;
+	 color: #152935;
+}
+
+#footer-text {
+  margin-bottom: : 10%;
+  text-align: left;;
+}
+
+@media print, screen and (max-width: 1000px) {
+
+
+  #hidden-button {
+    padding-left: 0px;
+  }
+
+
+.row {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
+  #footer-text {
+    text-align: left;}
+  h1 {
+    font-size: 32px;
+    }
+    #text-row {
+      padding-bottom: 5%;
+    }
+    #text-row-top {
+      padding-top: 3%;
+    }
+    #text-row-exp {
+      padding-bottom: 20px;
+    }
+    #text-row-sub {
+      padding-bottom: 30px;
+    }
+    #contact-button {
+      margin-top: 10%;
+      margin-bottom: 15%;}
+
+      #text-row-blank {
+        display: none;
+      }
+      #exp-col{
+        display: none;
+      }
+
+      #mobile-hide {
+        display: none;
+      }
+  }
+
+
+
+
+	div.middle {
+	  height: 10px;
+	  width: 100%;
+		background-color: #9599B5;
+	  xbackground-image: linear-gradient( 45deg, #649fff 0%, #5000ff 30%, #000 82%, #000 100%);
+	}
