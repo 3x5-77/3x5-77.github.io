@@ -56,6 +56,8 @@ a {
 
 a:hover {
   color: #0062ff;
+  -webkit-transition: ease 0.2s;
+   transition: ease 0.2s;
 }
 
 a:focus {
@@ -135,7 +137,6 @@ hlink {
   font-size: 20px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 hlink:hover {
@@ -163,7 +164,6 @@ hlink3 {
   font-size: 14px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 hlink3:hover {
@@ -332,7 +332,7 @@ p {
 }
 
 #footer-text {
-  margin-bottom: : 10%;
+margin-top: 20px;
   text-align: left;;
 }
 
