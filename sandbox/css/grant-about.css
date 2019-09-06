@@ -1,26 +1,27 @@
 body {
-  background-color: #000;
+  background-color: #f4f7fb;
 }
 
 h1a {
-  color: #fff;
+  color: #0062ff;
   font-size: 30px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
 }
 
 h2a {
-  color: #f3f3f3;
+  color: #000;
   font-size: 16px;
   font-family: 'Inter UI', sans-serif;
   font-weight: normal;
 }
 
 h2a a {
-  color: #f3f3f3;
+  color: #000;
   font-size: 16px;
   font-family: 'Inter UI', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 h2a strong {
@@ -37,10 +38,10 @@ h2a strong {
 }
 
 h3a {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Roboto Mono', monospace;
-  line-height: 32px;
-  color: #0062ff;
+  line-height: 30px;
+  color: #5a6872;
 }
 
 a h3a{

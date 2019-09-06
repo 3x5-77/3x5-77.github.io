@@ -161,9 +161,10 @@ hlink2:hover {
 
 hlink3 {
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Inter UI', sans-serif;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 hlink3:hover {
@@ -243,6 +244,7 @@ p {
 }
 
 #project-row-download {
+  
 }
 
 #text-row-top {
