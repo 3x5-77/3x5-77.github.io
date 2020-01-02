@@ -1,0 +1,17 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+#hero {
+  margin-top: 15%;
+}
+
+
+.display-6 {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: 900;
+}
