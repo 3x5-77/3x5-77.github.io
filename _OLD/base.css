@@ -40,16 +40,6 @@
     margin-bottom: 2rem;
 }
 
-.card-eyebrow {
-    color: #0f62fe;
-    font-size: 12px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-bottom: 1rem;
-}
-
 .container#body {
   padding-bottom: 4rem;
   padding-top: 5rem;
@@ -57,13 +47,8 @@
 
 .badge {
       font-family: 'Roboto Mono', monospace;
-      border: solid;
-      border-width: thin;
-      background: none;
-      border-color: #a0a0a0;
-      color: #a0a0a0;
-      margin: 0rem .25rem 0rem .25rem;
-      border-radius: 0;
+      border: 0;
+      margin: 0rem, 1rem, 0rem, 1rem;
 }
 
 
@@ -152,8 +137,8 @@ button {
 
 
 .jumbotron {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
     margin-bottom: 0;
 
     background-color: #161616;
@@ -165,11 +150,6 @@ button {
   border-radius: 0;
   background-color: #f4f4f4;
   padding: 1rem 0rem 1rem 0rem;
-}
-
-.btn {
-      font-size: 80%;
-      padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .card-footer {
